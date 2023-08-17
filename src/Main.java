@@ -2,7 +2,7 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-               hdfcBank vivekAcc=new hdfcBank("vivek","vivek123",1000);
+               sbibank vivekAcc=new sbibank("vivek123","vivek",10000);
                 System.out.println(vivekAcc);
                 System.out.println(vivekAcc.fetchBalance("visek123"));
                 System.out.println(vivekAcc.fetchBalance("vivek123"));
